@@ -1,0 +1,16 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Ask user for ZIP code to get weather.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noah Lambert",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "prompt-sync": "^4.2.0"
+  }
+}
